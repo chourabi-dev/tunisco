@@ -1,0 +1,151 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ #app{
+    
+ }
+
+
+ .left-side-part{
+    min-height: 100vh;
+    background-image: url(../bg.jpg);
+    background-position: left;
+    background-size: cover; 
+    padding-left: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .right-side{
+    min-height: 100vh;
+    background-image: url(../photo_real.jpg);
+    background-position: left;
+    background-size: cover;  
+ }
+
+ .main-logo{
+    width: 180px;
+ }
+
+
+ .elem-1{
+    color: #3858a3;
+    font-size: 48px;
+    font-weight: 300;
+ }
+
+
+
+ 
+
+ .elem-2 {
+    overflow: hidden;
+    position: relative;
+    padding:6px;
+    margin-bottom:20px;
+    width: fit-content;
+  }
+ 
+
+.elem-2:before {
+  content: "";
+  position: absolute;
+  border: 10px dashed #e34030;
+  top: -8px;
+  bottom: -8px;
+  left: -8px;
+  right: -8px;
+}
+
+
+.left-side-part{
+    border-right: 10px solid #e34030;
+}
+  
+
+ .elem-2{
+    color: #3858a3;
+    font-size: 48px;
+    font-weight: 700;
+ }
+
+
+ .main-text-content{
+    margin-top: 55px;
+ }
+
+ .elem-3{
+    color: #e34030;
+    font-size: 24px;
+ }
+
+ .elem-4{
+    font-size: 48px;
+    font-weight: 700;
+    color: #3858a3;
+ }
+
+ .footer-socials-icons{
+    padding-bottom: 15px;
+    border-bottom: 5px solid #3858a3;  
+ }
+
+ .footer-socials-icons > a > img{
+     width: 55px;
+ }
+
+ .footer-socials-icons > a{
+    margin-right: 15px;
+}
+
+.footer-socials-icons{
+    margin-top: 25px;
+}
+
+
+
+@media screen and ( max-width: 700px ) {
+    .right-side{
+        display: none !important;
+    }
+
+    .left-side-part{
+        border-right: 0;
+    }
+
+    .left-side-part{
+        padding-left: 12px;
+    }
+
+
+    .elem-1{
+        font-size: 24px;
+    }
+
+    .elem-2{
+        font-size: 24px;
+    }
+
+    .elem-3{
+        font-size: 18px;
+    }
+
+    .elem-1{
+        font-size: 24px;
+    }
+
+    .elem-4{
+        font-size: 24px;
+    }
+
+    
+ .footer-socials-icons > a > img{
+    width: 30px;
+}
+    
+
+    
+}
