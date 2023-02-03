@@ -94,7 +94,7 @@ body{
  }
 
  .footer-socials-icons > a > img{
-     width: 55px;
+     width: 40px;
  }
 
  .footer-socials-icons > a{
@@ -104,6 +104,45 @@ body{
 .footer-socials-icons{
     margin-top: 25px;
 }
+
+
+
+@media screen and ( min-width: 700px ) and ( max-width: 1150px ) {
+    .elem-1 {
+        color: #3858a3;
+        font-size: 32px;
+        font-weight: 300;
+    }
+
+    .elem-2 {
+        color: #3858a3;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .elem-3 {
+        color: #e34030;
+        font-size: 18px;
+    }
+
+    .elem-4 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #3858a3;
+    }
+
+    .footer-socials-icons {
+        margin-top: 15px;
+    }
+
+    .footer-socials-icons > a > img {
+        width: 35px;
+    }
+    
+}
+
+
+
 
 
 
@@ -143,7 +182,7 @@ body{
 
     
  .footer-socials-icons > a > img{
-    width: 30px;
+    width: 25px;
 }
     
 
