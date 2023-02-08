@@ -3,6 +3,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
  #app{
     
  }
@@ -21,7 +25,7 @@ body{
 
  .right-side{
     min-height: 100vh;
-    background-image: url(../photo_real.jpg);
+    background-image: url(../tunisco.png);
     background-position: left;
     background-size: cover;  
  }
@@ -62,7 +66,7 @@ body{
 
 
 .left-side-part{
-    border-right: 10px solid #e34030;
+   /* border-right: 10px solid #e34030;*/
 }
   
 
@@ -93,8 +97,10 @@ body{
     border-bottom: 5px solid #3858a3;  
  }
 
- .footer-socials-icons > a > img{
-     width: 40px;
+ .footer-socials-icons > a > i{
+     font-size: 40px;
+     color: #3858a3;
+
  }
 
  .footer-socials-icons > a{
@@ -135,8 +141,9 @@ body{
         margin-top: 15px;
     }
 
-    .footer-socials-icons > a > img {
-        width: 35px;
+    .footer-socials-icons > a > i {
+        font-size: 35px;
+        color: #3858a3;
     }
     
 }
@@ -181,8 +188,9 @@ body{
     }
 
     
- .footer-socials-icons > a > img{
-    width: 25px;
+ .footer-socials-icons > a > i{
+    font-size: 25px;
+    color: #3858a3;
 }
     
 
